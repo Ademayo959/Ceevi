@@ -781,9 +781,6 @@ svg {
 
 /* Media Queries for phone screens */
 @media screen and (max-width: 450px) {
-    body {
-        overflow: hidden;
-    }
 
     .div-nav-links {
         display: none;
@@ -2145,5 +2142,6 @@ svg {
     .slider-btn {
         display: none;
     }
+
 
 }
