@@ -1141,7 +1141,9 @@ svg {
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-columns: 0;
         gap: 20px;
-        justify-items: center;   
+        justify-items: center;  
+        margin: 0 auto;
+        width: fit-content;
     }
     .job-card{
         padding: 10px 10px;
@@ -2151,6 +2153,7 @@ svg {
 
 
 }
+
 
 
 
