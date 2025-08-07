@@ -850,6 +850,7 @@ svg {
         justify-self: center;
         border-radius: 10px;
         gap: 0px;
+        margin: 0 auto;
     }
 
     .phone-menu-item {
@@ -2150,5 +2151,6 @@ svg {
 
 
 }
+
 
 
