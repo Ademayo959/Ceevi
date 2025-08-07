@@ -833,7 +833,6 @@ svg {
 
     .phone-menu-bar {
         display: flex;
-        margin-left: 0px;
         align-self: center;
         justify-self: end;
     }
@@ -892,7 +891,7 @@ svg {
         margin-left: 0px;
         justify-self: center;
         width: 90%;
-        margin: 90px 10px 0px 10px;
+        margin: 90px 0px 0px 0px;
     }
 
     .top-left-div-h1 {
@@ -2151,4 +2150,5 @@ svg {
 
 
 }
+
 
