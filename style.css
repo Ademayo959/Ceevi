@@ -2138,6 +2138,7 @@ svg {
 
     .footer-first-div p {
         font-size: 18px;
+        justify-self: center;
     }
 
     .footer-first-div {
@@ -2467,4 +2468,5 @@ svg {
         text-decoration: underline;
         text-underline-offset: 3px;
     }
+
 }
