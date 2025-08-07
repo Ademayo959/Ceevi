@@ -1111,6 +1111,12 @@ svg {
         font-size: 15px;
         grid-column: 2;
     }
+    .slider-container{
+        width: 100%;
+        max-width: 100vw;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
 
     .slider {
         display: flex;
@@ -2145,3 +2151,4 @@ svg {
 
 
 }
+
