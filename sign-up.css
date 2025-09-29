@@ -1,0 +1,348 @@
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('fonts/RobotoSlab-Bold.ttf') format('truetype');
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('fonts/RobotoSlab-Regular.ttf') format('truetype');
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #ECF2F0;
+    transition: 0.5s ease-in-out;
+    transition-behavior: initial;
+    /*overflow: hidden;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a, input, button, textarea, select{
+    outline: none;
+}
+button{
+    font-family: 'Roboto Slab', sans-serif;
+}
+.div-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cee{
+    color: #57B63D;
+}
+.vi{
+    color: black;
+}
+.ceevi{
+    z-index: 2;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    justify-self: center;
+}
+.main-img{
+    height: 450px;
+    width: 650px;
+    z-index: 1;
+}
+.main-div{
+    display: flex;
+    gap: 100px;
+}
+
+.h-one {
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.h-one::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px; /* like text-underline-offset */
+    width: 100%;
+    height: 3px; /* like text-decoration-thickness */
+    background-color: #57B63D;
+    transition: width 1s ease;
+}
+
+.h-one:hover::after {
+    width: 0%;
+}
+p{
+    font-size: 18px;
+}
+.login-link{
+    color: #004232;
+}
+.input-div{
+    display: grid;
+    grid-template-rows: 3;
+    gap: 20px;
+}
+.input{
+    width: 350px;
+    height: 22px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+    font-family: 'Roboto Slab', sans-serif;
+    letter-spacing: 1px;
+}
+.password-div{
+    display: flex;
+}
+.input-password{
+    width: 250px;
+    height: 22px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+    font-family: 'Roboto Slab', sans-serif;
+    letter-spacing: 1px;
+}
+.eye{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    background-color: #D9D9D9;
+    margin-left: 10px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.eye-img{
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox-div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.checkbox{
+    height: 16px;
+    width: 16px;
+    accent-color: #57B63D;
+}
+.checkbox-label{
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    font-family: 'Roboto Slab' sans-serif;
+}
+.main-btn{
+    height: 40px;
+    width: 370px;
+    border-radius: 10px;
+    border: none;
+    background-color: #57B63D;
+    color: white;
+    font-family: 'Roboto Slab' sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 1s;
+}
+.main-btn:hover{
+    color: #57B63D;
+    background-color: #ECF2F0;
+    border: 1px solid #57B63D;
+}
+.lines-div{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.line-one{
+    width: 100px;
+    margin: 10px;
+}
+.line-two{
+    width: 100px;
+    margin: 10px;
+}
+.bottom{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 30px 0px;
+}
+.bottom-logos{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.bottom-label{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+    border: none;
+    gap: 10px;
+    font-size: 15px;
+}
+.bottom-label:hover{
+    color: #57B63D;
+    text-decoration: underline;
+    scale: 1.1;
+}
+
+@media screen and (max-width: 450px) {
+    body{
+        overflow: hidden;
+    }
+    .div-one{
+        margin: 20px;
+    }
+    .div-one p{
+        font-size: 15px;
+    }
+    .input{
+        width: 300px;
+    }
+    .h-one{
+        font-size: 30px;
+    }
+    .div-two{
+        display: none;
+    }
+    .input-password{
+        width: 200px;
+    }
+    .main-btn{
+        width: 320px;
+    }
+    .lines-div{
+        margin-left: 20px;
+    }
+    .bottom-label{
+        width: 150px;
+        font-size: 12px;
+    }
+    .bottom-logos{
+        margin-left: 0px;
+    }
+    .password-div{
+        background-color: #D9D9D9;
+        border-radius: 10px;
+    }
+    .eye{
+        background-color: #D9D9D9;
+        border-radius: 10px;
+    }
+    .eye-img{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    body{
+        overflow: hidden;
+    }
+    .div-one{
+        margin: 20px;
+    }
+    .div-one p{
+        font-size: 15px;
+    }
+    .input{
+        width: 300px;
+    }
+    .h-one{
+        font-size: 30px;
+    }
+    .div-two{
+        display: none;
+    }
+    .input-password{
+        width: 200px;
+    }
+    .main-btn{
+        width: 320px;
+    }
+    .lines-div{
+        margin-left: 20px;
+    }
+    .bottom-label{
+        width: 150px;
+        font-size: 12px;
+    }
+    .bottom-logos{
+        margin-left: 0px;
+    }
+    .password-div{
+        background-color: #D9D9D9;
+        border-radius: 10px;
+    }
+    .eye{
+        background-color: #D9D9D9;
+        border-radius: 10px;
+    }
+    .eye-img{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 330px) {
+    body{
+        overflow: hidden;
+    }
+    .div-one{
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .div-one p{
+        font-size: 15px;
+    }
+    .input{
+        width: 265px;
+    }
+    .h-one{
+        font-size: 30px;
+    }
+    .div-two{
+        display: none;
+    }
+    .input-password{
+        width: 180px;
+    }
+    .main-btn{
+        width: 280px;
+    }
+    .lines-div{
+        margin-left: 5px;
+    }
+    .bottom-label{
+        width: 150px;
+        font-size: 12px;
+    }
+    .bottom-logos{
+        margin-left: 0px;
+    }
+    .password-div{
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        width: 280px;
+    }
+    .eye{
+        background-color: #D9D9D9;
+        border-radius: 10px;
+    }
+    .eye-img{
+        margin-left: 30px;
+    }
+}
